@@ -1,13 +1,13 @@
 .linkOferta{
 	position:fixed;
-	margin:0;
+	margin: 0;
 	padding:0;
 	list-style:none;
 	z-index:999;
 	font-family:Arial,Helvetica,sans-serif;
-	right: -20px;
-	top:-10px;
-	color:white;
+	right: -10px;
+	top: 140px;
+	color: #3f25d0;
 }
 .linkOferta img{
 	width:9em;
@@ -22,15 +22,15 @@
 }
 .linkOferta .textoOferta{
 	position: absolute;
-	top:3.2em;
-	left:1.5em;  
+	top:5.0em;
+	left:1.4em;  
 	transform:rotate(-16deg);
 }.linkOferta:hover .textoOferta{
-	top:3.3em;
+	top:5.0em;
 }
 .linkOferta .textoOferta a{
 	color:white;
-	font-size: .97em;
+	font-size: .85em;
 	font-weight: bold;
 	transition:all .5s;
 }
@@ -43,6 +43,7 @@
 	  top:35px;
 	}
 }
+
 /** RESERVA **/
 .linkOferta1{
 	position:fixed;
